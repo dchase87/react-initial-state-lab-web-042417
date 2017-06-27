@@ -19,9 +19,7 @@ class Bomb extends React.Component {
 
   render () {
     return (
-      <div className="bomb">
-        {this.boom()}
-      </div>
+      <div className="bomb">{this.boom()}</div>
     )
   }
 }
